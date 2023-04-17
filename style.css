@@ -8,7 +8,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: sans-serif;
-	background: linear-gradient(to bottom, #1231, #0000 56%, #1231 56%);
+	background: linear-gradient(to bottom, #1231, #0000 calc(50% + 50px), #1231 calc(50% + 51px));
 	box-shadow: inset 0 0 400px #1231;
 }
 
