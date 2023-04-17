@@ -65,6 +65,11 @@ function pegarMoeda({target}) {
 	moeda.style.setProperty('--posicao', moedasJogador)
 	jogadasJogador--
 	moedasJogador++
+	if (moedas.length === 0) {
+		mostrarMensagem('Você venceu!')
+		botao.textContent = 'Jogar de novo?'
+		fimDeJogo = true
+	}
 }
 
 // Botao
