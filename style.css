@@ -130,6 +130,7 @@ button {
 	background-color: #46a;
 	border-radius: 4px;
 	box-shadow: 0 4px 8px -2px #0004;
+	cursor: pointer;
 	transition: border-width .1s ease-out;
 }
 
