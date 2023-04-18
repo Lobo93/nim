@@ -92,7 +92,7 @@ botao.addEventListener('click', () => {
 function rodadaNim() {
 	mostrarMensagem('Vez do Nim')
 	jogadasNim = (moedas.length % 4)
-	if (jogadasNim === 0) jogadasNim = Math.random() * 3 + 1
+	if (jogadasNim === 0) jogadasNim = Math.floor(Math.random() * 3 + 1)
 	setTimeout(nimPegaMoeda, 1000)
 }
 
